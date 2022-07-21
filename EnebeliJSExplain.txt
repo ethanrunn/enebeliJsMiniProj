@@ -1,0 +1,42 @@
+Loops - 5 types (while, for, 'find out the rest')
+while (number < 10) {
+    alert('number is less than 10')
+}
+for (let i=0; i++; i<3) {
+    alert('i love you')
+}
+
+Conditional statements
+if (gender = female) {
+    alert('you are a lady')
+}
+else if (gender = male) {
+    alert('you are a guy')
+}
+else {
+    alert('i dont know you')
+}
+
+Functions - allows you use a particular code repeatedly
+function showMessage() {
+    alert('Hi there')
+}
+after declaring our function as above, u can call it anywhere
+and multiple times in the file/project as thus
+showMessage()
+this will then show the message "Hi there"
+
+Objects - to group are particular number of vars
+objects can be structured like this
+let user = {}
+user['name'] = 'Ethan';
+user['age'] = 30;
+or like this
+let user = {
+    name: 'Ethan',
+    age: 30
+}
+Console - helps to display snippets of code or actions on the
+browser console. Can be used for debugging. e.g
+console.log('hi there')
+will display the message 'hi there' on the console
